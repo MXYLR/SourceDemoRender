@@ -1,11 +1,21 @@
 # Source Video Render
-[Download](https://github.com/crashfort/SourceDemoRender/releases)
+[Download](https://github.com/MXYLR/SourceDemoRender/releases)
 
 [Discord](https://discord.gg/5t8D68c)
 
 Source Video Render (SVR, formely SDR) can be used to produce movies for the Source engine with extreme performance.
 
 SVR operates on the H264 family of codecs for video with *libx264* for YUV and *libx264rgb* for RGB. Other codecs such as *vp8, vp9, av1* can be supported but are not directly accessible. It is recommended that the *avi* container is not used, prefer *mp4* or *mkv*.
+
+## For Black Mesa users
+
+The Devs said this will be no longer support black mesa, so this might be the final version(1.1) that support black mesa, and so I made a backup here.
+
+There is something you need to know :
+
+First, you need to disable it's own update check --- create a empty file named `no_update` (no file name extension) into the directory which has the exe files, that means you need put `no_update` near the main exe file.
+
+Second, it might not be a problem, but I still suggest you diable it's go online permission by using your operate system firewall.
 
 ## Game support
 | Game          | Windows
